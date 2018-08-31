@@ -16,5 +16,6 @@ if command -v python3 &>/dev/null; then
 else
 	echo Python 3 is not installed. Please install Python 3.
 	# I'm not sure you want your students' code to update python...?
+	# Or maybe you're using a virtualenv and it doesn't matter
 	# eval $(apt-get install python3)
 fi
